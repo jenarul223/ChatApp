@@ -1,0 +1,34 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // User profiles
+    match /users/{userId} {
+      allow read, write: if true;
+    }
+    
+    // Chats
+    match /chats/{chatId} {
+      allow read, write: if true;
+      
+      // Messages subcollection
+      match /messages/{messageId} {
+        allow read, write: if true;
+      }
+    }
+    
+    // Stories / Status
+    match /status/{statusId} {
+      allow read, write: if true;
+    }
+    
+    // User Settings
+    match /settings/{userId} {
+      allow read, write: if true;
+    }
+    
+    // Blocked Users
+    match /blockedUsers/{userId} {
+      allow read, write: if true;
+    }
+  }
+}

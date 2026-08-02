@@ -1,0 +1,6 @@
+{
+  "name": "WhatsApp Web Chat",
+  "description": "A modern, responsive WhatsApp-inspired Chat Web App built with React and Firebase featuring 1-on-1 chats, group chats, status/stories, media sharing, and presence.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
