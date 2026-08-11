@@ -3,7 +3,7 @@
   "appId": "1:106303046671:web:bdcf12eccf7d9e831ecf7a",
   "apiKey": "AIzaSyDX9hLMYHIXsipgTXw81R0pSbeFKARVcWk",
   "authDomain": "gen-lang-client-0894247123.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-whatsappwebchat-a424fa6b-51da-49f7-8d6d-182329ffe54b",
+  "firestoreDatabaseId": "https://chatappwithajmail.netlify.app/",
   "storageBucket": "gen-lang-client-0894247123.firebasestorage.app",
   "messagingSenderId": "106303046671",
   "measurementId": "",
